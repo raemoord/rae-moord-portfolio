@@ -126,15 +126,6 @@ a:hover {
   color: #fd7c6e;
 }
 
-a.portfolio-tab {
-  color: #ffffff;
-}
-
-a.portfolio-tab:hover {
-  color: #ffa089;
-  text-decoration: underline;
-}
-
 a.email-link {
   color: #ff6347;
 }
@@ -181,10 +172,6 @@ img {
  
 figure {
   margin: 0;
-}
- 
-address {
- font-style: normal;
 }
  
 .content-wrapper {
