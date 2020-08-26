@@ -229,14 +229,14 @@ header nav {
   flex-flow: column;
   font-size: 1.125em;
   font-weight: 500;
-  text-transform: uppercase;
   justify-content: center;
+  text-transform: uppercase;
   width: 100%;
 }
 
 header nav ul {
-  display: flex;
   align-items: center;
+  display: flex;
   flex-flow: column;
   justify-content: center;
   margin-top: 40px;
@@ -249,9 +249,9 @@ header nav ul li {
 
 ul li:hover > ul,
 ul li ul:hover {
-visibility: visible;
-opacity: 1;
 display: block;
+opacity: 1;
+visibility: visible;
 }
 
 footer {
@@ -365,10 +365,10 @@ footer .copyright {
 /* Work */
 
 .work {
+  align-items: center;
   background-color: #f4f9ff; 
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -403,15 +403,19 @@ footer .copyright {
 /* Nods */
 
 #nods {
+  align-items: center;
   background-color: #ff6347;
   color: #ffffff;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 #nods .content-wrapper {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
   margin: 50px 0;
 }
 
@@ -421,6 +425,13 @@ footer .copyright {
   text-align: center;
 }
 
+#nods figure {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -601,8 +612,8 @@ header nav ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  text-align: center;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 #connect .social-icons {
@@ -638,8 +649,21 @@ header nav ul {
 
 /* Nods */
 
-#nods .testimonials {
-  width: 50%;
+#nods article {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nods article div {
+  width: 50%;        
+}
+
+#nods article figure {
+  width: 30%;
+}
+
+#nods article figure {
+  margin: 0;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -688,8 +712,8 @@ header nav {
 }
 
 .hero-area .intro {
-  width: 46%;
   margin-top: 95px;
+  width: 46%;
 }
 
 .hero-area h1 {
@@ -704,6 +728,16 @@ header nav {
 
 #connect .social-icons {
   width: 15em;
+}
+
+/* ==========================================================================
+   Portfolio Page
+   ========================================================================== */
+
+/* Nods */
+
+#nods article figure {
+  width: 23%;
 }
 
 @media only screen and (min-width: 35em) {
